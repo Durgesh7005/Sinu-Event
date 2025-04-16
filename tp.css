@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: black;
+    font-family: "Urbanist", sans-serif;
+    
+}
+
+.cont{
+    width: 88%;
+    margin: 0 auto;
+}
+
+.small-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 17px;
+    border-bottom: 1px solid white;
+    font-weight: 500;
+}
+
+
+.left-details{
+    padding: 2px;
+}
+  
+.left-details a{
+    text-decoration: none;
+    color: white;
+    padding-right: 15px;
+    font-size: 16px;
+}
+
+.left-details a:hover{
+    color: #b49137;
+}
+
+.left-details i{
+    padding-right: 6px;
+    font-size: 16px;
+}
+
+.left-details a:nth-child(1){
+    border-right: 1px solid white;
+}
+
+.left-details a:nth-child(2){
+    padding-left: 11px;
+}
+
+  
+.right-details i {
+   color: white;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: #b49137;
+    height: 30px;
+    width: 30px;
+    border-radius: 22px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.big-nav img{
+    height: 100px;
+    width: 150;
+}
+
+.big-nav{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+
+
+
+nav ul {
+    display: flex;
+    text-decoration: none;
+    justify-content: space-around;
+}
+
+nav li{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 33px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+nav a:hover{
+    color: #b49137;
+}
+
+nav ul li a:hover{
+    color: #b49137;
+}
+
+nav ul li a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    justify-content: space-around;
+}
+
+.big-nav button {
+    background-color: black;
+    color: white;
+    border: 1px solid #b49137;
+    padding: 13px 37px;
+    border-radius: 25px;
+    font-size: 21px;
+    margin-right: 10px;
+}
+
+.second-section{
+    background: url('./Assets/background.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 50px 0;
+}
+
+.second-screen{
+    width: 88%;
+    margin: 15px auto;
+}
+
+.written-content-left-first h2{
+    color: white;
+    font-family: "Urbanist", sans-serif;
+    font-size: 20px;
+    background-color: #b49137d9;
+    width: 327px;
+    line-height: 35px;
+    padding: 2px 7px;
+    border-radius: 8px;   
+}
+
+.written-content-left-first h1{
+    color: white;
+    font-family: "Urbanist", sans-serif;
+    font-size: 69px;
+}
+
+.written-content-left-first p{
+    color: white;
+    font-family: "Urbanist", sans-serif;
+    font-size: 22px;
+}
+
+.second-screen{
+    display: flex;
+}
+
+.written-content-left-first{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    row-gap: 36px;
+}
+
+.written-content-left-first button {
+    background-color: black;
+    color: white;
+    border: 1px solid #b49137;
+    padding: 13px 37px;
+    border-radius: 25px;
+    font-size: 21px;
+    margin-right: 10px;
+}
+
+.images-first img{
+    position: absolute;
+    top: 58px;
+    right: 5px;
+}
+
+.images-first .img-1{
+    position: absolute;
+    top: 0;
+    right: 379px;
+    z-index: 1;
+}
+
+.images-first .img-2{
+    position: absolute;
+    top: -23px;
+    right: 65px;
+    z-index: 1;
+    height: 80px;
+    width: 80px;
+}
+
+/* .images-first .img-3{
+    position: absolute;
+    bottom: 176px;
+    right: 220px;
+    z-index: 1;
+    top: 443px;
+} */
+
+.images-first .img-3{
+    position: absolute;
+    top: 374px;
+    left: 1023px;
+    z-index: 1;
+}
+
+.images-first .img-4{
+    position: absolute;
+    right: 179px;
+    top: -194px;
+}
+
+.circle  {
+    position: absolute;
+    top: -103px;
+    left: 621px;
+    z-index: 1;
+}
+
+.third-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 88%;
+    margin: 0px auto;
+    padding: 70px 0px;
+    background-color: black;
+}
+
+.image-section-third{
+    width: 50%;
+}
+
+.img-first img{
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: all 0.4s;
+    z-index: 1;
+    left: 362px;
+    top: 759px;
+}
+
+.img-second img{
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: all 0.4s;
+    z-index: 1;
+    top: 1073px;
+    left: 354px;
+}
+
+.main3rd img{
+    border-radius: 50%;
+    position: absolute;
+    width: 520px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: all 0.4s;
+    height: 590px;
+    left: 76px;
+    top: 749px;
+  
+}
+
+.written-content-right-third{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    margin-left: 170px;
+    gap: 25px;
+    width: 50%;
+}
+
+.written-content-right-third h2{
+    color: white;
+    font-family: "Urbanist", sans-serif;
+    font-size: 20px;
+    background-color: #b49137d9;
+    width: 220px;
+    line-height: 35px;
+    padding: 4px 8px;
+    border-radius: 8px;
+}
+
+.written-content-right-third h1{
+color: white;
+font-size: 44px;
+}
+
+.written-content-right-third p{
+color: white;
+font-size: 18px;
+}
+
+.read-more-btn button{
+    background-color: black;
+    color: white;
+    border: 1px solid #b49137;
+    padding: 13px 37px;
+    border-radius: 25px;
+    font-size: 21px;
+
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    flex-direction: row;
+
+    margin: 0 auto;
+    background: url('./Assets/background.png');
+    background-size: cover;
+    background-position: center;
+    padding: 70px 60px;
+}
+
+.abt-us h3{
+    color: white;
+    font-size: 24px;
+}
+
+.abt-us p{
+    color: white;
+    font-size: 18px;
+}
+
+.abt-us ul li{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.abt-us ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+.contact-us h3{
+color: white;
+font-size: 24px;
+}
+
+.contact-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+.contact-us a{
+    color: white;
+    text-decoration: none;
+}
+
+.abt-us {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
